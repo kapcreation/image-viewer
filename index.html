@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Viewer</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="toolbar">
+    <input type="file" id="fileInput" class="file-input" multiple accept="image/*">
+    <div id="indicator" class="indicator"></div>
+    <p class="tips">l = prev, ; = next</p>
+  </div>
+  <div id="imageContainer" class="image-container">
+    <img id="currentImage" src="" alt="Image">
+  </div>
+</body>
+</html>
